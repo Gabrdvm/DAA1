@@ -1,0 +1,8 @@
+def volume_tabung(jari_jari, tinggi):
+    pi = 22 / 7
+    return pi * (jari_jari ** 2) * tinggi
+
+jari_jari = 3
+tinggi = 5
+volume = volume_tabung(jari_jari, tinggi)
+print(f"Volume tabung adalah: {volume:.2f}")
