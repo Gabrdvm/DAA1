@@ -1,0 +1,14 @@
+def cari_fpb(a, b):
+    
+    while b != 0:
+        a, b = b, a % b
+    return a
+
+def cari_kpk(a, b):
+
+    fpb = cari_fpb(a, b)
+    return abs(a * b) // fpb
+
+
+kpk = cari_kpk(3, 4)
+print(f"KPK dari 3 dan 4 adalah: {kpk}")
