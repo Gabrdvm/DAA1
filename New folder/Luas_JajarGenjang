@@ -1,7 +1,0 @@
-def luas_jajar_genjang(panjang, tinggi):
-    return panjang * tinggi
-
-panjang = 5
-tinggi = 3
-luas = luas_jajar_genjang(panjang, tinggi)
-print(f"Luas jajar genjang adalah: {luas}")
